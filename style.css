@@ -42,7 +42,14 @@ body {
 
 /* IMAGE SECTION */
 .image-section {
-  margin-top: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pokemon-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .image-placeholder {
@@ -109,4 +116,16 @@ body {
   font-size: 10px;
   border-top: 2px solid black;
   padding-top: 5px;
+}
+
+/* ICON SIZING */
+.energy-icon {
+  height: 16px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.type-icon {
+  height: 18px;
+  vertical-align: middle;
 }
